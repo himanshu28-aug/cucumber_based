@@ -36,6 +36,8 @@
   <scope>test</scope>
 </dependency>
 
+
+
     <!-- WebDriverManager (to auto-manage Chrome/Firefox drivers) -->
     <dependency>
         <groupId>io.github.bonigarcia</groupId>

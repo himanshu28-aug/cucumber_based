@@ -1,7 +1,7 @@
-Feature: Login functionality
+Feature: OrangeHRM Login
+
   Scenario: Successful login with valid credentials
-    Given I open the browser
-    When I navigate to the login page
-    And I enter username "standard_user" and password "secret_sauce"
+    Given I am on the OrangeHRM login page
+    When I enter valid username and password
     And I click on login button
-    Then I should see the homepage
+    Then I should be redirected to the OrangeHRM home page
